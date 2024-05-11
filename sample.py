@@ -5,7 +5,7 @@ import yaml
 import torch
 from guided_diffusion.unet import create_model
 from guided_diffusion.gaussian_diffusion import create_sampler
-from util.logger import get_logger
+from ddfm_util.logger import get_logger
 import cv2
 import numpy as np
 from skimage.io import imsave
